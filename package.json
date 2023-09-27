@@ -1,7 +1,7 @@
 {
   "name": "@jrhizor/auth-ui",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo run build",
     "build:react": "turbo run build --filter=@supabase/auth-ui-react",
