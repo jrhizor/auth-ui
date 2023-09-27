@@ -5,6 +5,7 @@ export const VIEWS: ViewsMap = {
   SIGN_UP: 'sign_up',
   FORGOTTEN_PASSWORD: 'forgotten_password',
   MAGIC_LINK: 'magic_link',
+  PHONE_OTP: 'phone_otp',
   UPDATE_PASSWORD: 'update_password',
   VERIFY_OTP: 'verify_otp',
 }
@@ -22,6 +23,7 @@ export const CLASS_NAMES = {
   SIGN_UP: VIEWS.SIGN_UP,
   FORGOTTEN_PASSWORD: VIEWS.FORGOTTEN_PASSWORD,
   MAGIC_LINK: VIEWS.MAGIC_LINK,
+  PHONE_OTP: VIEWS.PHONE_OTP,
   UPDATE_PASSWORD: VIEWS.UPDATE_PASSWORD,
   // ui
   anchor: 'ui-anchor',

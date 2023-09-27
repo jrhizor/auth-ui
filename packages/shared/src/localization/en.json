@@ -28,6 +28,15 @@
     "link_text": "Send a magic link email",
     "confirmation_text": "Check your email for the magic link"
   },
+  "phone_otp": {
+    "email_input_label": "Phone number",
+    "email_input_placeholder": "Your phone number",
+    "button_label": "Text login code",
+    "loading_button_label": "Sending login code ...",
+    "link_text": "Send a login code",
+    "confirmation_text": "Check your texts for the login code",
+    "invalid_phone": "You must enter a valid phone number"
+  },
   "forgotten_password": {
     "email_label": "Email address",
     "password_label": "Your Password",

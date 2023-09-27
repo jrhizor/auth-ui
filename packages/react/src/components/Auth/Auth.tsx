@@ -7,6 +7,7 @@ import {
   EmailAuthProps,
   ForgottenPassword,
   MagicLink,
+  PhoneOtp,
   SocialAuth,
   UpdatePassword,
   VerifyOtp,
@@ -193,6 +194,21 @@ function Auth({
           />
         </Container>
       )
+
+    case VIEWS.PHONE_OTP:
+      return (
+        <Container>
+          <PhoneOtp
+            appearance={appearance}
+            supabaseClient={supabaseClient}
+            setAuthView={setAuthView}
+            redirectTo={redirectTo}
+            showLinks={showLinks}
+            i18n={i18n}
+          />
+        </Container>
+      )
+
 
     case VIEWS.UPDATE_PASSWORD:
       return (

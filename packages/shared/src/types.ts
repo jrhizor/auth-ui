@@ -33,6 +33,7 @@ export type SocialButtonSize = 'tiny' | 'small' | 'medium' | 'large' | 'xlarge'
 export type ViewSignIn = 'sign_in'
 export type ViewSignUp = 'sign_up'
 export type ViewMagicLink = 'magic_link'
+export type ViewPhoneOtp = 'phone_otp'
 export type ViewForgottenPassword = 'forgotten_password'
 export type ViewUpdatePassword = 'update_password'
 export type ViewVerifyOtp = 'verify_otp'
@@ -41,6 +42,7 @@ export type ViewType =
   | ViewSignIn
   | ViewSignUp
   | ViewMagicLink
+  | ViewPhoneOtp
   | ViewForgottenPassword
   | ViewUpdatePassword
   | ViewVerifyOtp
@@ -138,6 +140,16 @@ export type I18nVariables = {
     link_text?: string
     confirmation_text?: string
     empty_email_address?: string
+  }
+  phone_otp?: {
+    phone_input_label?: string
+    phone_input_placeholder?: string
+    button_label?: string
+    loading_button_label?: string
+    link_text?: string
+    confirmation_text?: string
+    empty_phone?: string
+    invalid_phone?: string
   }
   forgotten_password?: {
     email_label?: string

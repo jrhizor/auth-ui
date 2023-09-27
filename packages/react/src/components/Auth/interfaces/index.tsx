@@ -1,4 +1,5 @@
 export * from './MagicLink.js'
+export * from './PhoneOtp.js'
 export * from './SocialAuth.js'
 export * from './EmailAuth.js'
 export * from './ForgottenPassword.js'
