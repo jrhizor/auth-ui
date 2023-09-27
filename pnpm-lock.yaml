@@ -26,10 +26,10 @@ importers:
 
   examples/react:
     dependencies:
-      '@supabase/auth-ui-react':
+      '@jrhizor/auth-ui-react':
         specifier: workspace:*
         version: link:../../packages/react
-      '@supabase/auth-ui-shared':
+      '@jrhizor/auth-ui-shared':
         specifier: workspace:*
         version: link:../../packages/shared
       '@supabase/supabase-js':
@@ -78,7 +78,7 @@ importers:
 
   examples/solidjs:
     dependencies:
-      '@supabase/auth-ui-shared':
+      '@jrhizor/auth-ui-shared':
         specifier: workspace:*
         version: link:../../packages/shared
       '@supabase/auth-ui-solid':
@@ -109,7 +109,7 @@ importers:
 
   examples/svelte:
     dependencies:
-      '@supabase/auth-ui-shared':
+      '@jrhizor/auth-ui-shared':
         specifier: workspace:*
         version: link:../../packages/shared
       '@supabase/auth-ui-svelte':
@@ -176,12 +176,12 @@ importers:
 
   packages/react:
     dependencies:
+      '@jrhizor/auth-ui-shared':
+        specifier: workspace:*
+        version: link:../shared
       '@stitches/core':
         specifier: ^1.2.8
         version: 1.2.8
-      '@supabase/auth-ui-shared':
-        specifier: workspace:*
-        version: link:../shared
       prop-types:
         specifier: ^15.7.2
         version: 15.8.1
@@ -249,12 +249,12 @@ importers:
 
   packages/solid:
     dependencies:
+      '@jrhizor/auth-ui-shared':
+        specifier: workspace:*
+        version: link:../shared
       '@stitches/core':
         specifier: ^1.2.8
         version: 1.2.8
-      '@supabase/auth-ui-shared':
-        specifier: workspace:*
-        version: link:../shared
       just-merge:
         specifier: ^3.2.0
         version: 3.2.0
@@ -298,12 +298,12 @@ importers:
 
   packages/svelte:
     dependencies:
+      '@jrhizor/auth-ui-shared':
+        specifier: workspace:*
+        version: link:../shared
       '@stitches/core':
         specifier: ^1.2.8
         version: 1.2.8
-      '@supabase/auth-ui-shared':
-        specifier: workspace:*
-        version: link:../shared
       svelte:
         specifier: ^3.55.1
         version: 3.59.2
